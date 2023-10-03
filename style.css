@@ -1,0 +1,70 @@
+body{
+ background-color: rgb(141, 190, 223);
+}
+
+.codigomorse{
+    position: absolute;
+    top: 50px;
+    margin-left: 350px;
+    width: 1000px;
+    height: 70vh;
+}
+
+.codigomorse h1{
+    font-size: 70px;
+    position: relative;
+    left: 300px;    
+}
+.texinto{
+    position: relative;
+    font-size: 30px;
+    left: 415px;
+}
+.msginto{
+    position: relative;
+    top: 95px;
+    left: 99px;
+    border: solid #000000 1px;
+}
+.btmorse{
+    position: relative;
+    top: 130px;
+    right: 265px;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.btmorse:hover{
+    background: #000000;
+    color: #f7f6f6;
+    border-radius: 15px;     
+}
+.bttex{
+    position: relative;
+    top: 130px;
+    right: 250px;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.bttex:hover{
+    background: #000000;
+    color: #f7f6f6;
+    border-radius: 15px;
+
+}
+.texresult{
+    position: relative;
+    top: 120px;
+    right: -460px;
+    font-size: 30px;
+}
+.mdgresult{
+    position: relative;
+    top: 220px;
+    left: 215px;
+    border: solid #000000 1px;
+
+}

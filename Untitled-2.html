@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Morse Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="codigomorse">
+        <h1>Morse Traductor</h1>
+
+     <label class="texinto" for="message">Ingrese su mensaje:</label>
+     <textarea class="msginto" id="message" rows="5" cols="50"></textarea>
+
+     <button class="btmorse" onclick="translateToMorse()">Traducir a Morse</button>
+     <button class="bttex" onclick="translateToText()">Traducir a Texto</button>
+
+     <label class="texresult" for="result">Resultado:</label>
+     <textarea class="mdgresult" id="result" rows="5" cols="50" readonly></textarea>
+    </section>
+    
+
+    <script src="constmorseToChar.js">  </script>
+</body>
+</html>
